@@ -939,7 +939,7 @@ li {
 
 .modal_form-policy:checked + .modal_form-policy-text::before {
   background-color: #2196f3;
-  background-image: url("../images/icon-check.svg");
+  background-image: url("../images/iconsend.svg");
 }
 
 .modal_form-policy-text {
