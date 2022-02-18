@@ -1,0 +1,167 @@
+.hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+/* ----------cap---------- */
+
+.cap {
+  border-bottom: 1px solid #ececec;
+}
+/* ----------list-1---------- */
+.portf-sect {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.portfolio-list-1 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.portfolio-list-1 .portfolio-list-button:not(:last-child) {
+  margin-right: 8px;
+}
+.but1 {
+  width: 73px;
+}
+.but2 {
+  width: 129px;
+}
+.but3 {
+  width: 145px;
+}
+.but4 {
+  width: 103px;
+}
+.but5 {
+  width: 130px;
+}
+.portfolio-navigation {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  background-color: #f5f4fa;
+  cursor: pointer;
+  border-radius: 4px;
+  border: 1px;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: color, background-color, box-shadow;
+  padding: 6px 22px;
+}
+
+.but-activ {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+
+.portfolio-navigation:hover,
+.portfolio-navigation:focus {
+  background-color: #2196f3;
+  color: #fff;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+/* ----------list-2---------- */
+.portfolio-list-2 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -30px;
+}
+
+.list-2-title {
+  background: #ffffff;
+  margin-top: 30px;
+  margin-right: auto;
+}
+.list-2-a {
+  display: block;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.list-2-a:hover,
+.list-2-a:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.portfolio-list-2 .list-2-title:nth-of-type(3n) {
+  margin-right: 0;
+}
+.overlay-list {
+  position: relative;
+  overflow: hidden;
+}
+
+.overlay {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.555;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  width: 370px;
+  height: 294px;
+  padding: 63px 24px;
+  margin: 0;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(33, 150, 243, 0.9);
+  color: #ffffff;
+  padding: 63px 24px;
+  transition: transform 250ms linear;
+  transform: translateY(100%);
+}
+.list-2-a:hover .overlay,
+.list-2-a:focus .overlay {
+  transform: translateY(0%);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+.port-list2 {
+  padding: 20px 24px;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+}
+.portfolio-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: #212121;
+  margin-top: 0;
+  margin-bottom: 4px;
+}
+.list2-text {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: #757575;
+  margin: 0;
+}
+/* ----------footer---------- */
+.footer-address {
+  font-style: normal;
+}
